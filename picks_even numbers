@@ -1,0 +1,9 @@
+def myfunc(*arg):
+    
+    even_numbers = []
+    for number in arg:
+        if number % 2 == 0:
+            even_numbers.append(number)
+        else:
+            pass
+    return even_numbers
